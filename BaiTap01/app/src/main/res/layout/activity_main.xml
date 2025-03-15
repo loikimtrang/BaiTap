@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lnAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cimgAnhdDD"
+            android:layout_width="84sp"
+            android:layout_height="84sp"
+            android:src="@drawable/anhdd"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:text="Trang Kim Lợi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:text="22110371"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnAnh"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnBai4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài 4: Random"/>
+
+        <Button
+            android:id="@+id/btnBai5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài 5: Lât Chuỗi"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
