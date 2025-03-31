@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fragment_Tablayout_Viewpage2</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="new_group">New group</string>
+    <string name="new_broadcast">New Broadcast</string>
+    <string name="whatsapp_web">WhatsApp web</string>
+    <string name="started_messages">Started Messages</string>
+</resources>
