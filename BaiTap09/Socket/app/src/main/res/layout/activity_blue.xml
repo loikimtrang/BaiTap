@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvDeviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên thiết bị: Chưa chọn"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvConnectionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái: Chưa kết nối"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnConnectDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết nối thiết bị"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnTurnOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bật Đèn"
+        android:layout_marginBottom="16dp"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/btnTurnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tắt Đèn"
+        android:enabled="false" />
+</LinearLayout>

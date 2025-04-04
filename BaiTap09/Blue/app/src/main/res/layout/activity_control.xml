@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bật thiết bị" />
+
+    <Button
+        android:id="@+id/btnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tắt thiết bị" />
+
+    <TextView
+        android:id="@+id/txtDeviceStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái thiết bị: Chưa kết nối"
+        android:padding="8dp"
+        android:textSize="16sp" />
+</LinearLayout>
+
