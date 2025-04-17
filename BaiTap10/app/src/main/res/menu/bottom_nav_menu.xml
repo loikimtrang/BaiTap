@@ -3,4 +3,6 @@
     <item android:id="@+id/menu_home" android:title="Home" android:icon="@android:drawable/ic_menu_view" />
     <item android:id="@+id/menu_upload" android:title="Upload" android:icon="@android:drawable/ic_menu_upload" />
     <item android:id="@+id/menu_web" android:title="Web" android:icon="@android:drawable/ic_menu_info_details" />
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/user" />
+
 </menu>

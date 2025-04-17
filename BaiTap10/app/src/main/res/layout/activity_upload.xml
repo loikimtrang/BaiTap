@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <Button
-        android:id="@+id/btnSelectVideo"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chọn Video" />
+        android:text="Upload Video"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
 
     <TextView
         android:id="@+id/tvFileName"
-        android:layout_marginTop="8dp"
-        android:text="Chưa chọn file"
-        android:textStyle="italic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:minHeight="48dp"
+        android:gravity="center_vertical"
+        android:hint="Chưa chọn file nào"/>
+
+    <Button
+        android:id="@+id/btnSelectVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn Video"
+        android:layout_marginTop="16dp"/>
 
     <Button
         android:id="@+id/btnUpload"
-        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginTop="8dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Upload lên Cloudinary" />
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+
 </LinearLayout>
+
