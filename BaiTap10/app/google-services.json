@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1010355044995",
+    "firebase_url": "https://short-video-nix-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "short-video-nix",
+    "storage_bucket": "short-video-nix.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010355044995:android:71e81b0d449107176691b6",
+        "android_client_info": {
+          "package_name": "com.example.firebasevideo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa7dsf0ktHf34Q2hlROcuwe61DqnLBoy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
